@@ -1,0 +1,72 @@
+:root{
+    --page-background:#0c1a34;
+    --navbar-background:#abccff;
+    --botton-background:#fff;
+    --text-color-landingpage:#fff;
+
+}
+body{
+    background-color: var(--page-background)!important;
+    
+}
+.navbarbg{
+    background-color: var(--navbar-background)!important;
+}
+h4{
+    color: var(--page-background)!important;
+}
+.specailiconforregister{
+    font-size: 27px!important;
+}
+h2{
+    color: var(--text-color-landingpage)!important;
+}
+.oneline{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card{
+    overflow: hidden!important;
+}
+html,body{
+    height: 100%!important;
+}
+.bm{
+    min-height: 87%!important;
+}
+@media(max-width:769ox){
+    .bm{
+        min-height: 89%!important;
+    }
+}
+@media(max-width:1025px){
+    .bm{
+        min-height: 91%!important;
+    }
+
+}
+/* btn up */
+
+.btn-up {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    z-index: 9999999;
+}
+.toup{
+    background-color: var(--page-background);
+    border: none!important;
+}
+.toup:hover{
+    background-color: var(--page-background);
+}
+.btn-up a i {
+    color: white !important;
+}
+
+.iconcolor{
+    color: var(--page-background)!important;
+    font-size: 30px;
+}

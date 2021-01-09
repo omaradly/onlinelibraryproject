@@ -1,0 +1,36 @@
+h2{
+    color: var(--text-color-landingpage)!important;
+}
+html,body{
+    height: 100%!important;
+}
+.bm{
+    min-height: 87%!important;
+}
+.addnewcateogry{
+    background-color: var(--botton-background)!important;
+    border-color: var(--botton-background)!important;
+    color: var(--page-background);
+    transition: all 0.3s;
+}
+.addnewcateogry:hover{
+    color:var(--page-background);
+    background-color: #eee!important;
+}
+.cateogryname{
+    line-height: 2;
+}
+.iconsize{
+    font-size: 14px;
+}
+@media(max-width:769ox){
+    .bm{
+        min-height: 89%!important;
+    }
+}
+@media(max-width:1025px){
+    .bm{
+        min-height: 91%!important;
+    }
+
+}

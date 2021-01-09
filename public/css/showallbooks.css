@@ -1,0 +1,48 @@
+h2{
+    color: var(--text-color-landingpage)!important;
+}
+@keyframes bganim {
+    from {background-position: left;}
+    to {background-position: right;}
+  }
+.bookcard{
+    background-color: var(--text-color-landingpage);
+    color:var(--page-background)!important;
+}
+.pagebuttonstyle{
+    background-color:var(--botton-background)!important;
+    color:var(--page-background)!important;
+    position: relative!important;
+}
+.bookimage{
+    object-fit: cover;
+    width: 100%!important;
+    height: 300px!important;
+}
+.pricesale{
+    text-decoration: line-through;
+    color: #888!important;
+}
+.sale{
+    position: absolute;
+    background-color:#ffc107;
+    padding: 5px 10px;
+    top: 20px;
+    right: 10px;
+    background:linear-gradient(to right, #ffc107 20%, #fed662 40% , #ffc107 60%, #fac733 80%);
+    background-size: 200%;
+    animation: bganim 1s alternate infinite;
+    color:var(--page-background);
+    text-align: center;
+    font-weight: bold;
+}
+.addnewbook{
+    background-color: var(--botton-background)!important;
+    border-color: var(--botton-background)!important;
+    color: var(--page-background);
+    transition: all 0.3s;
+}
+.addnewbook:hover{
+    color:var(--page-background);
+    background-color: #eee!important;
+}

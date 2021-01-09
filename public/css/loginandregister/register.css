@@ -1,0 +1,116 @@
+h2{
+    color: var(--text-color-landingpage)!important;
+}
+label,legend{
+    color: var(--text-color-landingpage);
+}
+html,body{
+    height: 100%!important;
+}
+.bm{
+    min-height:87%!important;
+}
+.addnewbook{
+    background-color: var(--botton-background)!important;
+    border-color: var(--botton-background)!important;
+    color: var(--page-background);
+    transition: all 0.3s;
+}
+.addnewbook:hover{
+    color:var(--page-background);
+    background-color: #eee!important;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+.box{
+    width: 100%;
+    height: 65vh;
+    display: grid;
+    place-items: center;
+}
+.sub-box {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    color: #333;
+    font-family: sans-serif;
+    line-height: 1.5;
+    max-width: 100%;
+    padding: 1rem 2rem;
+    overflow: hidden;
+  
+  }
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .sub-box {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.1);  
+    }
+}
+input{
+    background-color: transparent!important;
+    border: none!important;
+   color: #FFF!important;
+}
+input::placeholder{
+    color: #CCC!important;
+}
+input:focus
+{
+
+    box-shadow: none!important;
+}
+.line{
+    position: relative;
+    color: var(--text-color-landingpage);
+}
+.line::before{
+    content:'';
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: #777;
+    top: 60%;
+    left: 0;
+}
+.line::after{
+    content:'';
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: #777;
+    top: 60%;
+    right: 0;
+}
+.facebookicon{
+    color: #0470E5!important;  
+    font-size: 20px!important;
+}
+
+.githupicon{
+    font-size: 20px!important;
+}
+.specailiconforregister{
+    font-size: 27px!important;
+}
+@media(max-width:769ox){
+    .bm{
+        min-height: 89%!important;
+    }
+}
+@media(max-width:1025px){
+    .bm{
+        min-height: 91%!important;
+    }
+
+}
+
+
+
+

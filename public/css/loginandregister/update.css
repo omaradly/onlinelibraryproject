@@ -1,0 +1,44 @@
+h2{
+    color: var(--text-color-landingpage)!important;
+}
+label,legend{
+    color: var(--text-color-landingpage);
+}
+html,body{
+    height: 100%!important;
+}
+.bm{
+    min-height: 87%!important;
+}
+.addnewbook{
+    background-color: var(--botton-background)!important;
+    border-color: var(--botton-background)!important;
+    color: var(--page-background);
+    transition: all 0.3s;
+}
+.addnewbook:hover{
+    color:var(--page-background);
+    background-color: #eee!important;
+}
+@media(max-width:769ox){
+    .bm{
+        min-height: 89%!important;
+    }
+}
+@media(max-width:1025px){
+    .bm{
+        min-height: 91%!important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
